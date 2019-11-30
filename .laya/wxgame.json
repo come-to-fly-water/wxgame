@@ -62,9 +62,9 @@
     "clearReleaseDir": true,
     "compile": true,
     "forceCompile": false,
-    "onlyIndexJS": false,
+    "onlyIndexJS": true,
     "projectType": "js",
-    "pubTime": 1575117858925,
+    "pubTime": 1575128368110,
     "uesEnginePlugin": false,
     "wxOptimize": {
         "useOptimizeOpen": false,

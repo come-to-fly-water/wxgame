@@ -18,7 +18,7 @@
             "x":15,
             "type":"Label",
             "searchKey":"Label",
-            "props":{"y":323,"x":161.5,"width":317,"valign":"middle","text":"UNO","height":143,"fontSize":100,"color":"#ffffff","align":"center"},
+            "props":{"y":297,"x":161.5,"width":317,"valign":"middle","text":"UNO","height":143,"fontSize":100,"color":"#ffffff","align":"center"},
             "nodeParent":2,
             "label":"Label",
             "isDirectory":false,
