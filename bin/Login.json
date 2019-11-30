@@ -1,0 +1,1 @@
+{"type":"Scene","props":{"width":640,"runtime":"Login.js","height":1136},"compId":2,"child":[{"type":"Label","props":{"y":323,"x":161.5,"width":317,"valign":"middle","text":"UNO","height":143,"fontSize":100,"color":"#ffffff","align":"center"},"compId":5}],"loadList":[],"loadList3D":[]}
