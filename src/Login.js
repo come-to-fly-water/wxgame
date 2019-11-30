@@ -1,3 +1,5 @@
+window.global = {}
+
 export default class Login extends Laya.Scene {
     constructor() {
         super();
@@ -27,12 +29,19 @@ export default class Login extends Laya.Scene {
                     return
                 }
                 btn.hide()
-                // Laya.Scene.open('test/TestScene.scene')
-                Laya.Scene.open("Home.scene")
+                window.global.userInfo = res.userInfo
+                Laya.Scene.open('testws.scene')
             })
+            // window.wx.authorize({scoop: "scoop.userInfo"})
         } else {
             // Laya.Scene.close('Login.scene')
-            Laya.Scene.open('test/TestScene.scene', true, ()=>{console.log("loaded")})
+            console.log('other browser')
+            window.global.userInfo = {
+                nickName: 'nickname',
+                avatarUrl: 'https://www.baidu.com/img/bd_logo1.png',
+                gender: 0,
+            }
+            Laya.Scene.open('testws.scene', true, () => { console.log("loaded") })
         }
     }
 }
